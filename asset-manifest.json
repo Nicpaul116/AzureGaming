@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Restaurant/static/css/main.0816fd25.css",
+    "main.js": "/Restaurant/static/js/main.f0d30993.js",
+    "static/media/wd2.jpg": "/Restaurant/static/media/wd2.97cb5aa046c6ef193790.jpg",
+    "static/media/ghost-of-tsushima-4320x3456-12072.jpg": "/Restaurant/static/media/ghost-of-tsushima-4320x3456-12072.6d718cce4e411f81184c.jpg",
+    "static/media/cyberpunk-2077-3840x2160-13543.jpg": "/Restaurant/static/media/cyberpunk-2077-3840x2160-13543.172cb4f90a219b4b2a35.jpg",
+    "static/media/HFW.png": "/Restaurant/static/media/HFW.35eac335047b81a5f4b1.png",
+    "static/media/RDD2.jpg": "/Restaurant/static/media/RDD2.4d2e0ca7de636ed330b0.jpg",
+    "static/media/SM2.png": "/Restaurant/static/media/SM2.5c592fbfea7379a7931d.png",
+    "static/media/597965.jpg": "/Restaurant/static/media/597965.8578871d9aadd2f11d77.jpg",
+    "static/media/cuphead.png": "/Restaurant/static/media/cuphead.f1939c086225692fec1e.png",
+    "static/media/ghostrunner-pc-games-playstation-4-xbox-one-nintendo-switch-1920x1080-7528.jpg": "/Restaurant/static/media/ghostrunner-pc-games-playstation-4-xbox-one-nintendo-switch-1920x1080-7528.73b7e0d8f60d4baa35e2.jpg",
+    "static/media/nfs.jpeg": "/Restaurant/static/media/nfs.efd4a081cf1f7359f849.jpeg",
+    "static/media/wallpaperflare.com_wallpaper.jpg": "/Restaurant/static/media/wallpaperflare.com_wallpaper.6b82e93996a2aeb94d44.jpg",
+    "static/media/ea24.jpeg": "/Restaurant/static/media/ea24.8ebead9587da8e5d400a.jpeg",
+    "static/media/dbfz.jpeg": "/Restaurant/static/media/dbfz.f068392587bc1ac30de2.jpeg",
+    "static/media/fotnite.jpg": "/Restaurant/static/media/fotnite.5593fc2eaebb81aa80fd.jpg",
+    "static/media/sf6.jpeg": "/Restaurant/static/media/sf6.6fb13de0aa50472379e9.jpeg",
+    "static/media/forza.jpg": "/Restaurant/static/media/forza.4d1eacc2c8d7c6dcd080.jpg",
+    "static/media/TLOU2.jpg": "/Restaurant/static/media/TLOU2.9a2cf26be6f29aa00503.jpg",
+    "static/media/elden-ring.jpg": "/Restaurant/static/media/elden-ring.983d0f7ed796301edc13.jpg",
+    "static/media/Apex.jpg": "/Restaurant/static/media/Apex.8a647b335d1b58cedc7b.jpg",
+    "static/media/gow.jpg": "/Restaurant/static/media/gow.9d3bebc2aee6c8502a88.jpg",
+    "static/media/mascot (2).png": "/Restaurant/static/media/mascot (2).b3c5b4363fbe9a8027fb.png",
+    "static/media/bf2042.jpg": "/Restaurant/static/media/bf2042.48200673f437cf043510.jpg",
+    "static/media/ghostrunner-cyberpunk-cyborg-ninja-katana-hd-wallpaper-preview.jpg": "/Restaurant/static/media/ghostrunner-cyberpunk-cyborg-ninja-katana-hd-wallpaper-preview.1c03ad21fef342bfc0fe.jpg",
+    "static/media/Finals.jpg": "/Restaurant/static/media/Finals.11068b42d20fe37640d0.jpg",
+    "index.html": "/Restaurant/index.html",
+    "main.0816fd25.css.map": "/Restaurant/static/css/main.0816fd25.css.map",
+    "main.f0d30993.js.map": "/Restaurant/static/js/main.f0d30993.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0816fd25.css",
+    "static/js/main.f0d30993.js"
+  ]
+}
