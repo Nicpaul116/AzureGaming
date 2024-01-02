@@ -1,0 +1,153 @@
+.navbar-all {
+  background: #000d59;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.links-ref ul {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  border-radius: 50px;
+}
+
+.links-ref li {
+  padding-left: 2rem;
+  padding-right: 3rem;
+  border-radius: 20px;
+  list-style: none;
+  transition: 0.2s ease;
+  font-size: 15px;
+  margin: 0 10px;
+}
+
+.links-ref li:hover {
+  transition: 0.2s ease;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: black;
+}
+
+.links-ref li:active {
+  background-color: black;
+}
+
+.links-ref a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.navbar-button {
+  padding-left: 30px;
+}
+
+.navbar-button button {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(242, 18, 18, 1);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  transition: 1s ease-in;
+}
+
+.navbar-button button:hover {
+  transition: 1s ease-out;
+  cursor: pointer;
+  background-color: rgb(23, 40, 99, 1);
+  color: #fff;
+}
+
+.menu-wrap {
+  padding-right: 30px;
+  display: none;
+}
+
+.navbar-menu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: left 1s ease-in;
+  transform: translateX(0);
+}
+
+.togglemenu {
+  z-index: 100;
+  transition: 0.4s ease-in;
+}
+
+.menu-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  opacity: 0.9;
+  width: 400px;
+  height: 720px;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 25px;
+}
+
+.links-ref2 p,
+.signin p {
+  padding: 10px;
+  border-top: 1px solid #eee;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+.signin p {
+  padding-bottom: 10px;
+}
+
+.menu-links a,
+.signin p {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s ease-in;
+}
+
+.menu-links a:hover,
+.signin p:hover {
+  cursor: pointer;
+  color: rgb(242, 18, 18, 1);
+  transition: 0.2s ease-in;
+}
+
+@media screen and (max-width: 1050px) {
+  .menu-wrap {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+}

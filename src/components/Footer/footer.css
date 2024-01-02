@@ -1,0 +1,8 @@
+.footer-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(145deg, #000d59 28%, #79e5d3 80%);
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
