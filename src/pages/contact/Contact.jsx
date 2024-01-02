@@ -36,7 +36,9 @@ const Contact = () => {
               loading: "lazy",
               referrerpolicy: "no-referrer-when-downgrade",
             }}
-          ></iframe>
+          >
+            i
+          </iframe>
           <form>
             <div className="contact-form1">
               <input type="text" placeholder="Your Name..." />

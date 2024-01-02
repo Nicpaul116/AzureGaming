@@ -2,7 +2,6 @@ import img1 from "../../../assets/Apex.jpg";
 import img2 from "../../../assets/Finals.jpg";
 import img3 from "../../../assets/ea24.jpeg";
 import img4 from "../../../assets/elden-ring.jpg";
-import img5 from "../../../assets/forza.jpg";
 import img6 from "../../../assets/sf6.jpeg";
 
 export const topgames = [
