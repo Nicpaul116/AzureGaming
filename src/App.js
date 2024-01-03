@@ -7,15 +7,13 @@ import "./app.css";
 const App = () => {
   return (
     <div className="app-wrap">
-      <Navbar />
       <BrowserRouter>
+        <Navbar />
         <Routes>
-          <Route>
-            <Route path="/" element={<Home />} />
-            <Route path="Games" element={<Games />} />
-            <Route path="Gamedetails" element={<Gamedetails />} />
-            <Route path="Contact" element={<Contact />} />
-          </Route>
+          <Route path="/" element={<Home />} />
+          <Route path="Games" element={<Games />} />
+          <Route path="Gamedetails" element={<Gamedetails />} />
+          <Route path="Contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
       <Footer />

@@ -3,6 +3,7 @@ import logo from "../../assets/mascot (2).png";
 import "./navbar.css";
 import { IoMdClose } from "react-icons/io";
 import { RiMenu3Fill } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -10,16 +11,24 @@ const Navbar = () => {
     <>
       <ul>
         <li>
-          <a href="/">Home</a>
+          <Link to="/" className="Link">
+            Home
+          </Link>
         </li>
         <li>
-          <a href="/Games">Games</a>
+          <Link to="/Games" className="Link">
+            Games
+          </Link>
         </li>
         <li>
-          <a href="/Gamedetails">Game details</a>
+          <Link to="/Gamedetails" className="Link">
+            Game details
+          </Link>
         </li>
         <li>
-          <a href="/Contact">Contact</a>
+          <Link to="/Contact" className="Link">
+            Contact
+          </Link>
         </li>
       </ul>
     </>
@@ -50,16 +59,24 @@ const Navbar = () => {
               <div className="menu-links">
                 <div className="links-ref2">
                   <p>
-                    <a href="/">Home</a>
+                    <Link to="/" className="Link1">
+                      Home
+                    </Link>
                   </p>
                   <p>
-                    <a href="/Games">Games</a>
+                    <Link to="/Games" className="Link1">
+                      Games
+                    </Link>
                   </p>
                   <p>
-                    <a href="/Gamedetails">Game details</a>
+                    <Link to="/Gamedetails" className="Link1">
+                      Game details
+                    </Link>
                   </p>
                   <p>
-                    <a href="/Contact">Contact</a>
+                    <Link to="/Contact" className="Link1">
+                      Contact
+                    </Link>
                   </p>
                 </div>
                 <div className="signin">

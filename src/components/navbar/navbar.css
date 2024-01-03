@@ -47,7 +47,7 @@
   background-color: black;
 }
 
-.links-ref a {
+.Link {
   text-decoration: none;
   color: #fff;
 }
@@ -125,14 +125,14 @@
   padding-bottom: 10px;
 }
 
-.menu-links a,
+.Link1,
 .signin p {
   text-decoration: none;
   color: #fff;
   transition: 0.2s ease-in;
 }
 
-.menu-links a:hover,
+.Link1:hover,
 .signin p:hover {
   cursor: pointer;
   color: rgb(242, 18, 18, 1);
