@@ -1,13 +1,13 @@
 import React from "react";
 import { Contact, Home, Games, Gamedetails } from "./pages";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import { Navbar, Footer } from "./components";
 import "./app.css";
 
 const App = () => {
   return (
     <div className="app-wrap">
-      <BrowserRouter>
+      <HashRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -15,7 +15,7 @@ const App = () => {
           <Route path="/Gamedetails" element={<Gamedetails />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <Footer />
     </div>
   );
