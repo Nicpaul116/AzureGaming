@@ -21,6 +21,11 @@
   -webkit-text-fill-color: transparent;
 }
 
+.topgames-head-info a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .top-details {
   display: flex;
   justify-content: center;

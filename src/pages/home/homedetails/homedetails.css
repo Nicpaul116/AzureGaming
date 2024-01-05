@@ -11,6 +11,11 @@
   border-radius: 30px;
 }
 
+.details-top a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .trend1,
 .trend2,
 .trend3,

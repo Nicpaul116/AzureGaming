@@ -1,6 +1,7 @@
 import React from "react";
 import "./top.css";
 import { topgames } from "./topgames";
+import { Link } from "react-router-dom";
 
 const Top = () => {
   return (
@@ -9,7 +10,9 @@ const Top = () => {
         <h4>Top Games</h4>
         <div className="topgames-head-info">
           <h2>Most Played</h2>
-          <button>View All</button>
+          <button>
+            <Link to="/games">View all</Link>
+          </button>
         </div>
         <div className="top-details">
           {topgames.map((top) => {

@@ -5,6 +5,7 @@ import image2 from "../../../assets/cyberpunk-2077-3840x2160-13543.jpg";
 import image3 from "../../../assets/ghost-of-tsushima-4320x3456-12072.jpg";
 import image4 from "../../../assets/wallpaperflare.com_wallpaper.jpg";
 import { IoBagHandle } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const Homedetails = () => {
   return (
@@ -12,7 +13,9 @@ const Homedetails = () => {
       <h4>Trending</h4>
       <div className="details-top">
         <h2>Trending Games</h2>
-        <button>View all</button>
+        <button>
+          <Link to="/games">View all</Link>
+        </button>
       </div>
       <div className="trend-wrap">
         <div className="trend1">

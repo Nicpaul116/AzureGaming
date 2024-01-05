@@ -27,7 +27,7 @@ const Games = () => {
   };
 
   return (
-    <div className="games-wrap">
+    <div className="games-wrap" id="games">
       <div className="games-header">
         <h1>Games</h1>
       </div>

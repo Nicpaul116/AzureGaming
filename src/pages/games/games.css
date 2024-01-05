@@ -11,6 +11,10 @@
   font-size: 30px;
 }
 
+.games-buttons {
+  flex-wrap: wrap;
+}
+
 .games-header {
   background: linear-gradient(145deg, #000d59 28%, #79e5d3 80%);
   background-size: cover;
@@ -49,7 +53,7 @@
   font-weight: 700;
   border: none;
   transition: 1s ease-in;
-  margin: 0 1rem;
+  margin: 1rem;
 }
 
 .games-buttons button:hover,
