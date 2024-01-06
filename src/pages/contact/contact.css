@@ -3,6 +3,8 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 2rem 5rem;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .contact-head {
@@ -46,6 +48,7 @@
 .contact-wrap2 {
   display: flex;
   flex-direction: column;
+  margin-top: 1rem;
 }
 
 .contact-wrap2 iframe,
@@ -99,4 +102,15 @@
   padding-top: 1rem;
   display: flex;
   color: #fff;
+}
+
+@media screen and (max-width: 1250px) {
+  .contact-all {
+    justify-content: center;
+  }
+
+  .contact-button {
+    display: flex;
+    justify-content: center;
+  }
 }

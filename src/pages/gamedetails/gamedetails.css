@@ -201,3 +201,19 @@
     height: 400px;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .gamedetails-info {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .info3-buttons button {
+    font-size: 10px;
+  }
+  .gamedetails-all {
+    padding: 0;
+  }
+}

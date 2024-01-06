@@ -97,7 +97,7 @@
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
-  right: 8%;
+  margin-top: 10px;
 }
 
 .end-info3 input {
@@ -110,6 +110,11 @@
   color: #fff;
   padding: 2px;
   padding-left: 10px;
+}
+
+.end-button1 a {
+  text-decoration: none;
+  color: #fff;
 }
 
 @media screen and (max-width: 1350px) {

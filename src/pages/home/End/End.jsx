@@ -1,6 +1,7 @@
 import React from "react";
 import img1 from "../../../assets/wd2.jpg";
 import "./end.css";
+import { Link } from "react-router-dom";
 
 const End = () => {
   return (
@@ -16,7 +17,9 @@ const End = () => {
             incididunt
           </p>
           <div className="end-button1">
-            <button>Shop Now</button>
+            <button>
+              <Link to="/games">Shop Now</Link>
+            </button>
           </div>
         </div>
         <div className="end-info2">
