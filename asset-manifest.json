@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AzureGaming/static/css/main.f0d0907e.css",
+    "main.css": "/AzureGaming/static/css/main.c4637377.css",
     "main.js": "/AzureGaming/static/js/main.a06e4bbb.js",
     "static/media/wd2.jpg": "/AzureGaming/static/media/wd2.97cb5aa046c6ef193790.jpg",
     "static/media/ghost-of-tsushima-4320x3456-12072.jpg": "/AzureGaming/static/media/ghost-of-tsushima-4320x3456-12072.6d718cce4e411f81184c.jpg",
@@ -17,6 +17,7 @@
     "static/media/dbfz.jpeg": "/AzureGaming/static/media/dbfz.f068392587bc1ac30de2.jpeg",
     "static/media/fotnite.jpg": "/AzureGaming/static/media/fotnite.5593fc2eaebb81aa80fd.jpg",
     "static/media/sf6.jpeg": "/AzureGaming/static/media/sf6.6fb13de0aa50472379e9.jpeg",
+    "static/media/5073414.jpg": "/AzureGaming/static/media/5073414.74b9db733735005d474a.jpg",
     "static/media/forza.jpg": "/AzureGaming/static/media/forza.4d1eacc2c8d7c6dcd080.jpg",
     "static/media/TLOU2.jpg": "/AzureGaming/static/media/TLOU2.9a2cf26be6f29aa00503.jpg",
     "static/media/elden-ring.jpg": "/AzureGaming/static/media/elden-ring.983d0f7ed796301edc13.jpg",
@@ -27,11 +28,11 @@
     "static/media/ghostrunner-cyberpunk-cyborg-ninja-katana-hd-wallpaper-preview.jpg": "/AzureGaming/static/media/ghostrunner-cyberpunk-cyborg-ninja-katana-hd-wallpaper-preview.1c03ad21fef342bfc0fe.jpg",
     "static/media/Finals.jpg": "/AzureGaming/static/media/Finals.11068b42d20fe37640d0.jpg",
     "index.html": "/AzureGaming/index.html",
-    "main.f0d0907e.css.map": "/AzureGaming/static/css/main.f0d0907e.css.map",
+    "main.c4637377.css.map": "/AzureGaming/static/css/main.c4637377.css.map",
     "main.a06e4bbb.js.map": "/AzureGaming/static/js/main.a06e4bbb.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0d0907e.css",
+    "static/css/main.c4637377.css",
     "static/js/main.a06e4bbb.js"
   ]
 }
