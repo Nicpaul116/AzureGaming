@@ -28,6 +28,7 @@ const Contact = () => {
         </div>
         <div className="contact-wrap2">
           <iframe
+            title="frame"
             src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5693.809544660607!2d18.0520914417442!3d53.12900690207925!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2spl!4v1704230217573!5m2!1sen!2spl"
             style={{
               width: "100%",
@@ -36,9 +37,7 @@ const Contact = () => {
               loading: "lazy",
               referrerpolicy: "no-referrer-when-downgrade",
             }}
-          >
-            i
-          </iframe>
+          ></iframe>
           <form>
             <div className="contact-form1">
               <input type="text" placeholder="Your Name..." />

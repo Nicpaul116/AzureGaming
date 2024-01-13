@@ -149,5 +149,12 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
+  .logo img {
+    width: 80px;
+    height: 80px;
+  }
+  .navbar-wrap {
+    padding: 1rem;
+  }
 }
