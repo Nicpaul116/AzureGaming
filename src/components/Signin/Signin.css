@@ -1,0 +1,124 @@
+.signin-all {
+  background: radial-gradient(
+      at center center,
+      rgba(0, 0, 0, 0.38) 10%,
+      rgba(0, 0, 0, 0.6) 50%
+    ),
+    url("../../assets/league.jpg") no-repeat;
+  background-size: cover;
+  background-position: right;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.signinwrap {
+  background: rgb(23, 40, 99, 0.4);
+  border-radius: 20px;
+  height: 600px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signinwrap h2 {
+  padding-bottom: 5rem;
+}
+
+.signin_text input {
+  width: 350px;
+  height: 40px;
+  margin: 0.5rem 0;
+  padding-left: 1rem;
+  border: none;
+  outline: none;
+}
+
+.password {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  position: absolute;
+  right: 2%;
+  color: black;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox a {
+  padding: 1rem 0;
+  color: #79e5d3;
+  text-decoration: none;
+  margin-left: 5rem;
+  transition: 0.5s ease-in;
+}
+
+.checkbox label {
+  color: #79e5d3;
+}
+
+.checkbox a:hover {
+  color: #79e5d3;
+  transition: 0.5s ease-out;
+}
+
+.signinwrap button {
+  width: 370px;
+  height: 40px;
+  margin: 1rem 0;
+  color: #79e5d3;
+  background: rgb(0, 0, 0);
+  border: none;
+  transition: 0.3s ease;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.signinwrap button:hover {
+  background: #79e5d3;
+  color: rgb(0, 0, 0);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.register_account {
+  display: flex;
+  padding: 1rem 0;
+  align-items: center;
+}
+
+.register_account a {
+  padding-left: 5px;
+  color: #79e5d3;
+  text-decoration: none;
+}
+
+.signin_terms {
+  position: relative;
+  top: 13%;
+}
+
+.signin_terms a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #79e5d3;
+}
+
+.href1 {
+  border-right: 1px solid #79e5d3;
+  padding-right: 2rem;
+}

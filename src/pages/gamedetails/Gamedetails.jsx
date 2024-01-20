@@ -3,6 +3,8 @@ import nfs from "../../assets/nfs.jpeg";
 import { IoBagHandle } from "react-icons/io5";
 import "./gamedetails.css";
 import { related } from "./related";
+import { Navbar } from "../../components";
+import { Link } from "react-router-dom";
 
 const Gamedetails = () => {
   const [showpara, setshowpara] = useState(
@@ -22,68 +24,73 @@ const Gamedetails = () => {
   };
   return (
     <div className="gamedetails-all">
+      <Navbar />
       <div className="gamedetails-header">
         <h1>Need For Speed Unbound</h1>
       </div>
-      <div className="gamedetails-info">
-        <div className="img-wrap">
-          <img src={nfs} alt="nfs" />
-        </div>
-        <div className="gamedetails-info1">
-          <h3>Need For Speed Unbound</h3>
-          <h2>$40</h2>
-          <p>
-            AZURE Gaming gives you ultimate discount to your favourite games .
-            This game brings high quality driving and fun. Feel free to contact
-            us if there issues. Thank you.
-          </p>
-          <form action="">
-            <input type="text" name="number" placeholder="1" />
-            <button>
-              <i>
-                <IoBagHandle />
-              </i>
-              Add to cart
-            </button>
-          </form>
-          <div className="gamedetails-info2">
-            <p>Game ID: NFS Unbound</p>
-            <p>Genre: Sports, Racing, SP</p>
-            <p>Multi-tags: Challenge, Speed, Rumble</p>
+      <div className="gamedetails_info-wrap">
+        <div className="gamedetails-info">
+          <div className="img-wrap">
+            <img src={nfs} alt="nfs" />
           </div>
-        </div>
-      </div>
-      <div className="gamedetails-info3">
-        <div className="info3-buttons">
-          <ul>
-            <li className="list1">
-              <button onClick={reset} className="active">
-                Description
+          <div className="gamedetails-info1">
+            <h3>Need For Speed Unbound</h3>
+            <h2>$40</h2>
+            <p>
+              AZURE Gaming gives you ultimate discount to your favourite games .
+              This game brings high quality driving and fun. Feel free to
+              contact us if there issues. Thank you.
+            </p>
+            <form action="">
+              <input type="text" name="number" placeholder="1" />
+              <button>
+                <i>
+                  <IoBagHandle />
+                </i>
+                Add to cart
               </button>
-            </li>
-            <li>
-              <button onClick={set}>Review</button>
-            </li>
-          </ul>
-          <div className="info3-paragraph">
-            <p>{showpara}</p>
+            </form>
+            <div className="gamedetails-info2">
+              <p>Game ID: NFS Unbound</p>
+              <p>Genre: Sports, Racing, SP</p>
+              <p>Multi-tags: Challenge, Speed, Rumble</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="info4-wrap">
-        <div className="info4-head">
-          <h2>Related Games</h2>
-          <button>View all</button>
+        <div className="gamedetails-info3">
+          <div className="info3-buttons">
+            <ul>
+              <li className="list1">
+                <button onClick={reset} className="active">
+                  Description
+                </button>
+              </li>
+              <li>
+                <button onClick={set}>Review</button>
+              </li>
+            </ul>
+            <div className="info3-paragraph">
+              <p>{showpara}</p>
+            </div>
+          </div>
         </div>
-        <div className="info4-relate">
-          {related.map((relate, index) => {
-            return (
-              <div key={index} className="relate-wrap">
-                <img src={relate.image} alt={relate.name} />
-                <h3>{relate.name}</h3>
-              </div>
-            );
-          })}
+        <div className="info4-wrap">
+          <div className="info4-head">
+            <h2>Related Games</h2>
+            <Link to="/Games">
+              <button>View all</button>
+            </Link>
+          </div>
+          <div className="info4-relate">
+            {related.map((relate, index) => {
+              return (
+                <div key={index} className="relate-wrap">
+                  <img src={relate.image} alt={relate.name} />
+                  <h3>{relate.name}</h3>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>

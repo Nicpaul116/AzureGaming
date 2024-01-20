@@ -23,7 +23,9 @@ const Top = () => {
                   <div className="top-info">
                     <p>{top.genre}</p>
                     <h3>{top.name}</h3>
-                    <button>{top.button}</button>
+                    <Link to="/Gamedetails">
+                      <button>{top.button}</button>
+                    </Link>
                   </div>
                 </div>
               </div>

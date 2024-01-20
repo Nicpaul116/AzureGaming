@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { gameshop } from "./gameshop";
 import "./games.css";
 import { buttons } from "./gameshop";
+import { Navbar } from "../../components";
 
 const Games = () => {
   const getgenre = () => {
@@ -28,6 +29,7 @@ const Games = () => {
 
   return (
     <div className="games-wrap" id="games">
+      <Navbar />
       <div className="games-header">
         <h1>Games</h1>
       </div>

@@ -21,12 +21,6 @@ const Head = () => {
               AzureGaming is a free website for games. You can find any game you
               want
             </p>
-            <div className="header-form">
-              <form>
-                <input type="text" placeholder="Type Something" />
-                <button className="home-button">search now</button>
-              </form>
-            </div>
           </div>
           <div className="price">
             <h3>$40</h3>

@@ -42,7 +42,9 @@ const Navbar = () => {
         <div className="navbar-links">
           <div className="links-ref">{Menu}</div>
           <div className="navbar-button">
-            <button>Sign in</button>
+            <Link to="/Signin">
+              <button>Sign in</button>
+            </Link>
           </div>
         </div>
         <div>{toggleMenu}</div>
