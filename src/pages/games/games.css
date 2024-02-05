@@ -3,6 +3,12 @@
   flex-direction: column;
 }
 
+.game-wrap {
+  background: #4444;
+  margin: 0 1rem;
+  border-radius: 20px;
+}
+
 .games-header,
 .games-buttons {
   display: flex;
@@ -29,7 +35,7 @@
     rgb(23, 40, 99, 1),
     rgb(242, 18, 18, 1)
   );
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
 }

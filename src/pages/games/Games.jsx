@@ -3,6 +3,7 @@ import { gameshop } from "./gameshop";
 import "./games.css";
 import { buttons } from "./gameshop";
 import { Navbar } from "../../components";
+import { Link } from "react-router-dom";
 
 const Games = () => {
   const getgenre = () => {
@@ -33,34 +34,36 @@ const Games = () => {
       <div className="games-header">
         <h1>Games</h1>
       </div>
-      <div className="games-buttons">
-        {buttons &&
-          buttons.map((type, index) => (
-            <>
-              <button key={index} value={type.value} onClick={handlegenre}>
-                {type.name}
-              </button>
-            </>
-          ))}
-      </div>
-      <div className="gameshop-all">
-        {filteredgenre &&
-          filteredgenre.map((games) => {
-            return (
-              <div className="gameshop-wrap">
-                <a href="/Gamedetails">
-                  <div className="gameshop-img">
-                    <img src={games.game} alt={games.name} />
-                    <h3>{games.price}</h3>
-                  </div>
-                  <div className="gameshop-info">
-                    <p>{games.genre}</p>
-                    <h3>{games.name}</h3>
-                  </div>
-                </a>
-              </div>
-            );
-          })}
+      <div className="game-wrap">
+        <div className="games-buttons">
+          {buttons &&
+            buttons.map((type, index) => (
+              <>
+                <button key={index} value={type.value} onClick={handlegenre}>
+                  {type.name}
+                </button>
+              </>
+            ))}
+        </div>
+        <div className="gameshop-all">
+          {filteredgenre &&
+            filteredgenre.map((games) => {
+              return (
+                <div className="gameshop-wrap">
+                  <Link to="/Gamedetails">
+                    <div className="gameshop-img">
+                      <img src={games.game} alt={games.name} />
+                      <h3>{games.price}</h3>
+                    </div>
+                    <div className="gameshop-info">
+                      <p>{games.genre}</p>
+                      <h3>{games.name}</h3>
+                    </div>
+                  </Link>
+                </div>
+              );
+            })}
+        </div>
       </div>
     </div>
   );

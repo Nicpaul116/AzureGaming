@@ -20,22 +20,27 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 1rem;
+  padding-bottom: 1.5rem;
+  background: #353535;
+  margin: 0 1rem;
+  border-radius: 20px;
 }
 
 .categories-all h5 {
   font-size: 20px;
 }
 
-.categories-all h2 {
-  font-size: 20px;
+.categories-all h2,
+.categories-all h5 {
+  font-size: 30px;
   background: -webkit-linear-gradient(
     45deg,
     rgb(23, 40, 99, 1),
     rgb(242, 18, 18, 1)
   );
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
 }
 
 .category-head {

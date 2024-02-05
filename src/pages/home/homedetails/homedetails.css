@@ -5,6 +5,13 @@
   align-items: center;
 }
 
+.details-wrap {
+  background: #353535;
+  border-radius: 20px;
+  margin: 0 1rem;
+  padding: 1.5rem;
+}
+
 .trend-img img {
   width: 250px;
   height: 200px;
@@ -95,13 +102,16 @@
   padding: 0 2.2rem;
 }
 
-.details-top h2 {
+.details-top h2,
+.details-wrap h4 {
+  font-size: 30px;
+  text-transform: uppercase;
   background: -webkit-linear-gradient(
-    80deg,
+    180deg,
     rgb(23, 40, 99, 1),
     rgb(242, 18, 18, 1)
   );
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 

@@ -25,7 +25,7 @@
     rgb(23, 40, 99, 1),
     rgb(242, 18, 18, 1)
   );
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
   font-weight: 800;
