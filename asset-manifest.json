@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AzureGaming/static/css/main.5cdb06df.css",
-    "main.js": "/AzureGaming/static/js/main.11f8833c.js",
+    "main.css": "/AzureGaming/static/css/main.ca24da49.css",
+    "main.js": "/AzureGaming/static/js/main.a93ad644.js",
     "static/media/wd2.jpg": "/AzureGaming/static/media/wd2.97cb5aa046c6ef193790.jpg",
     "static/media/ghost-of-tsushima-4320x3456-12072.jpg": "/AzureGaming/static/media/ghost-of-tsushima-4320x3456-12072.6d718cce4e411f81184c.jpg",
     "static/media/cyberpunk-2077-3840x2160-13543.jpg": "/AzureGaming/static/media/cyberpunk-2077-3840x2160-13543.172cb4f90a219b4b2a35.jpg",
@@ -29,11 +29,11 @@
     "static/media/ghostrunner-cyberpunk-cyborg-ninja-katana-hd-wallpaper-preview.jpg": "/AzureGaming/static/media/ghostrunner-cyberpunk-cyborg-ninja-katana-hd-wallpaper-preview.1c03ad21fef342bfc0fe.jpg",
     "static/media/Finals.jpg": "/AzureGaming/static/media/Finals.11068b42d20fe37640d0.jpg",
     "index.html": "/AzureGaming/index.html",
-    "main.5cdb06df.css.map": "/AzureGaming/static/css/main.5cdb06df.css.map",
-    "main.11f8833c.js.map": "/AzureGaming/static/js/main.11f8833c.js.map"
+    "main.ca24da49.css.map": "/AzureGaming/static/css/main.ca24da49.css.map",
+    "main.a93ad644.js.map": "/AzureGaming/static/js/main.a93ad644.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cdb06df.css",
-    "static/js/main.11f8833c.js"
+    "static/css/main.ca24da49.css",
+    "static/js/main.a93ad644.js"
   ]
 }
